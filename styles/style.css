@@ -10,7 +10,7 @@
     width: 10.8rem;
     height: 3.25rem;
     border: 0;
-    padding: 16px 84px 16px 16px;
+    padding: 16px 16px 16px 16px;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -18,7 +18,7 @@
 }
 
 /* header section-1 styles */
-header {
+header , main {
     max-width: 73.125rem;
     margin: 0 auto;
 
@@ -37,7 +37,7 @@ nav>ul {
 nav li {
     color: var(--Dark-02, #424247);
     list-style: none;
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 1.20rem;
     font-weight: 400;
 }
@@ -99,6 +99,23 @@ section h2 {
     height: 3.25rem;
     border: 0;
     padding: 16px 84px 16px 16px;
+}
+/* main section styles */
+.main-1st-sec{
+    display: flex;
+    gap: 3.30rem;
+    margin-top: 60px;
+}
+.main-1st-sec h3{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #131318;
+}
+.main-1st-sec div p, .main-1st-sec div ul{
+    max-width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    padding: 5px;
 }
 
 
